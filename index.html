@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+	<head>
+		<title>检查结果展示</title>
+		<meta charset='utf-8'>
+		<script data-main='js/main' src='js/lib/require.js'></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+	<body>
+		<header>
+			<div id='user'>
+				<div><span>u</span>用户</div>
+				<div><span>o</span>退出</div>
+			</div>
+		</header>
+		<article>
+			<section id='welcome'>欢迎你&nbsp&nbsp<span>Jerry</span></section>
+			<section id='item-container'>
+				<ul>
+					<li class='item' id='description'><div class='item-content selected' data-name='设备简介'></div></li>
+					<li class='item' id='result'><div class='item-content' data-name='检测结果'></div></li>
+					<li class='item' id='statistics'><div class='item-content' data-name='统计分析'></div></li>
+					<li class='item' id='history'><div class='item-content' data-name='检测历史'></div></li>
+					<li class='item' id='records'><div class='item-content' data-name='健康档案'></div></li>
+				</ul>
+			</section>
+			<section id='tip'>你可以按下 &nbsp&nbsp<span>b</span>&nbsp&nbsp按钮，获得更多信息</section>
+		</article>
+		<footer>
+			<div id='toggle'>
+				<span>t</span>
+			</div>
+			<div id='detail'>
+				<h3>设备简介</h3>
+				<p>在本模块，你可以了解各种医疗设备。<br/>每种设备叫什么，怎么使用，作用是什么等等。</p>
+				<ul>
+					<li class='device'><img src="images/ct.jpg" /></li>
+					<li class='device'><img src="images/dsa.jpg" /></li>
+					<li class='device'><img src="images/ct.jpg" /></li>
+					<li class='device'><img src="images/ct.jpg" /></li>
+					<li class='device'><img src="images/ct.jpg" /></li>
+					<li class='device'><img src="images/ct.jpg" /></li>
+				</ul>
+			</div>
+		</footer>
+	</body>
+</html>
